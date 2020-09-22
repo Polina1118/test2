@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+     <fieldset class="style">
+     	<form>
+     		<p><label for="name">Ваш логин</label><input type="text" pattern="^([-_a-zA-Z0-9]{5,30}$)" placeholder="myname1" required="name"></p>
+     		<p><label for="email">Ваш e-mail</label><input type="email" pattern="/[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}/igm" placeholder="sitehere.ru@my.com" required="email"></p>
+     		<p><label for="password">Ваш пароль</label><input type="password" pattern="([-_0-9]{5,30}$)" placeholder="123456" required="password"></p>
+     		<p><label for="password">Потвердите ваш пароль</label><input type="password" pattern="([-_0-9]{5,30}$)" placeholder="123456" required="password"></p>
+            <p><label for="radio">Ваш пол</label>
+            	<p><label for="name">М</label><input type="radio"></p>
+            	<p><label for="name">Ж</label><input type="radio"></p>
+            </p>
+            <p><label for="text">В какой стране вы живете</label>
+            	<select name="country">
+            	<option>Выбирите страну</option>
+                <option value="1">Франция</option>
+                <option value="2">Россия</option>
+                <option value="3">Германия</option>
+                <option value="4">Эспания</option>
+                <option value="5">Италия</option>
+                <option value="6">Китай</option>
+                <option value="7">Америка</option>
+                <option value="8">Англия</option>
+                 </select></p>
+                 <p><input type="submit" value="Регистрация"></p>
+                 <p><input type="reset" value="Перезагрузить"></p>
+     	</form>
+        
+     </fieldset>
+</body>
+</html>
